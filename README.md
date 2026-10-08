@@ -20,7 +20,7 @@
 
 ## Automation elsewhere
 
-- **n8n** runs on the [Docker Services Host](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/docker-services-host/) and is defined in the [lab-ops Compose services stack](https://github.com/Dstanfield-Creator/lab-ops/tree/main/compose/services). Workflows: lab notifications, log enrichment, scheduled checks, alert-to-notification for [monitoring](https://github.com/Dstanfield-Creator/monitoring).
+- **n8n** runs on the [Docker Services Host](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/docker-services-host/) and is defined in the [lab-ops Compose services stack](https://github.com/Dstanfield-Creator/lab-ops/tree/main/compose/services). Workflows: lab notifications, log enrichment, scheduled checks, alert-to-notification for [monitoring](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring).
 - **Lab lifecycle scripts** (`lab-up`, `lab-down`, `lab-ssh-check`) live in [lab-ops/scripts](https://github.com/Dstanfield-Creator/lab-ops/tree/main/scripts); the agents call the same Proxmox API they do, with a narrower token.
 
 ## Roadmap
